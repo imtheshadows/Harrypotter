@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+input{
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+h1{
+    text-align: center;
+}
+button{
+    font-size: 1.5rem;
+}
+.conatiner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.indiv{
+    display: inline-block;
+}
+.choice{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: antiquewhite;
+}
+

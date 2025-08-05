@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Xplore Harry Potter</h1>
+    <div class="container">
+        <div class="choice">
+            <div class="movie indiv">
+                <h2>Movies</h2>
+                <input type="radio" name="radio">
+                <button class="movie-search">Search</button>
+
+            </div>
+
+            <div class="book indiv">
+                <h2 style="color:red">Books</h2>
+                <input type="radio" name="radio">
+                <button class="book-search">Search</button>
+            </div>
+            <div class="character indiv">
+                    <h2 style="color:rgb(152, 38, 99)">Character</h2>
+                    <input type="radio" name="radio">
+                    <button class="character-search">Search</button>
+            </div>
+            
+            <div class="potion indiv">
+                <h2 style="color:yellow">Potions </h2>
+                <input type="radio" name="radio">
+                <button class="potion-search">Search</button>
+            </div>
+            
+            <div class="spell indiv">
+                <h2 style="color:aqua">Spells</h2>
+                <input type="radio" name="radio">
+                <button class="spell-search">Search</button>
+
+            </div>
+        </div>
+        <div class="content">
+            
+            <ul></ul>
+        </div>
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
